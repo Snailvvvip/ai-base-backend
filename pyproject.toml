@@ -1,0 +1,55 @@
+[tool.poetry]
+name = "ai-langserve"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [
+    { include = "app" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+uvicorn = "^0.23.2"
+langserve = {extras = ["server"], version = ">=0.0.30"}
+pydantic = "2.10.6"
+langchain-openai = "^0.3.28"
+dotenv = "^0.9.9"
+pydantic-settings = "^2.10.1"
+psutil = "^7.0.0"
+asyncmy = "^0.2.10"
+sqlmodel = "^0.0.24"
+greenlet = "^3.2.3"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+pyjwt = "^2.10.1"
+python-multipart = "^0.0.20"
+langgraph = "^0.6.3"
+langgraph-checkpoint-postgres = "^2.0.23"
+llama-index = "0.12.42"
+llama-index-vector-stores-milvus = "0.8.7"
+llama-index-llms-openai-like = "0.4.0"
+pymilvus = "2.6.1"
+aiofiles = "^24.1.0"
+redis = "^6.4.0"
+websockets = "^15.0.1"
+dashscope = "^1.25.1"
+psycopg = {extras = ["binary"], version = "^3.3.3"}
+
+
+[tool.poetry.group.dev.dependencies]
+langchain-cli = ">=0.0.15"
+
+# 配置国内镜像源
+[[tool.poetry.source]]
+name = "tsinghua"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+priority = "primary"  # 最高优先级
+
+[[tool.poetry.source]]
+name = "aliyun"
+url = "https://mirrors.aliyun.com/pypi/simple/"
+priority = "supplemental"  # 次级优先级
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,54 @@
+[18:07:02]receive message:  {"event_id": "event_Xg4o5eXrwBq3Dv6i16tcL", "type": "session.created", "session": {"object": "realtime.session", "model": "qwen3-asr-flash-realtime", "modalities": ["text"], "input_audio_format": "pcm", "sample_rate": 16000, "input_audio_transcription": {"model": "qwen3-asr-flash-realtime"}, "turn_detection": {"type": "server_vad", "threshold": 0.2, "silence_duration_ms": 800}, "id": "sess_RTmRAcSuEbITu6sua3jOv"}}
+
+[18:07:02]receive message:  {"event_id": "event_RY29NFop4tAIDZpZ1ceiv", "type": "session.updated", "session": {"id": "sess_RTmRAcSuEbITu6sua3jOv", "object": "realtime.session", "model": "qwen3-asr-flash-realtime", "modalities": ["text"], "input_audio_format": "pcm", "input_audio_transcription": {"model": "qwen3-asr-flash-realtime", "language": "zh"}, "turn_detection": {"type": "server_vad", "threshold": 0.2, "silence_duration_ms": 800, "create_response": true, "interrupt_response": true}, "sample_rate": 16000}}
+
+[18:07:04]receive message:  {"event_id": "event_EX2uwu6xLLvLJhCTT5Tya", "type": "input_audio_buffer.speech_started", "audio_start_ms": 1900, "item_id": "item_AEQBaDSactuh6lFHdhLnh"}
+
+[18:07:05]receive message:  {"event_id": "event_WbJ31CaIwPwwnNfJOLRZ7", "type": "conversation.item.created", "item": {"id": "item_AEQBaDSactuh6lFHdhLnh", "object": "realtime.item", "type": "message", "status": "in_progress", "role": "assistant", "content": [{"type": "input_audio"}]}}
+
+[18:07:05]receive message:  {"event_id": "event_LhToqCQmQX3zWIdjEKvlg", "type": "conversation.item.input_audio_transcription.text", "item_id": "item_AEQBaDSactuh6lFHdhLnh", "content_index": 0, "text": "", "stash": "大"}
+
+[18:07:05]receive message:  {"event_id": "event_X9X7zlxIp44pQelwbfRbH", "type": "conversation.item.input_audio_transcription.text", "item_id": "item_AEQBaDSactuh6lFHdhLnh", "content_index": 0, "text": "", "stash": "大漠"}
+
+[18:07:05]receive message:  {"event_id": "event_XLB64gdbKbfAM1uocAYGP", "type": "conversation.item.input_audio_transcription.text", "item_id": "item_AEQBaDSactuh6lFHdhLnh", "content_index": 0, "text": "", "stash": "大漠孤"}
+
+[18:07:05]receive message:  {"event_id": "event_Fa4qnePfwiWTlIRoBsWF1", "type": "conversation.item.input_audio_transcription.text", "item_id": "item_AEQBaDSactuh6lFHdhLnh", "content_index": 0, "text": "", "stash": "大漠孤。"}
+
+[18:07:07]receive message:  {"event_id": "event_YtgfDmpLi8ClAV5wCZeDZ", "type": "input_audio_buffer.speech_stopped", "audio_end_ms": 5240, "item_id": "item_AEQBaDSactuh6lFHdhLnh"}
+
+[18:07:07]receive message:  {"event_id": "event_FUpop8WUSmc1orkna58gi", "type": "input_audio_buffer.committed", "item_id": "item_AEQBaDSactuh6lFHdhLnh"}
+
+[18:07:07]receive message:  {"event_id": "event_WoFtx1fmvIoq7vjpfYez2", "type": "conversation.item.input_audio_transcription.text", "item_id": "item_AEQBaDSactuh6lFHdhLnh", "content_index": 0, "text": "", "stash": "大漠孤烟"}
+
+[18:07:07]receive message:  {"event_id": "event_WDPETKwaVDffRnt22RdLP", "type": "conversation.item.input_audio_transcription.text", "item_id": "item_AEQBaDSactuh6lFHdhLnh", "content_index": 0, "text": "", "stash": "大漠孤烟直"}
+
+[18:07:07]receive message:  {"event_id": "event_O28jlaFUWdxMRDA5WKOp8", "type": "conversation.item.input_audio_transcription.text", "item_id": "item_AEQBaDSactuh6lFHdhLnh", "content_index": 0, "text": "", "stash": "大漠孤烟直。"}
+
+[18:07:07]receive message:  {"event_id": "event_MN9TdqMM13VKHg6gthJSQ", "type": "conversation.item.input_audio_transcription.completed", "item_id": "item_AEQBaDSactuh6lFHdhLnh", "content_index": 0, "transcript": "大漠孤烟直。", "usage": {"duration": 5}}
+
+[18:07:07]receive message:  {"type": "final_transcript", "text": "大漠孤烟直。"}
+
+[18:07:10]receive message:  {"event_id": "event_OOc7k8cX7GKpjNqog71ZK", "type": "input_audio_buffer.speech_started", "audio_start_ms": 8060, "item_id": "item_S997Yu46cT66srf8uqqxj"}
+
+[18:07:12]receive message:  {"event_id": "event_Eo4KtXx5JVHP8V4qtKITT", "type": "conversation.item.created", "previous_item_id": "item_AEQBaDSactuh6lFHdhLnh", "item": {"id": "item_S997Yu46cT66srf8uqqxj", "object": "realtime.item", "type": "message", "status": "in_progress", "role": "assistant", "content": [{"type": "input_audio"}]}}
+
+[18:07:12]receive message:  {"event_id": "event_PHmM2m1scdbo8TjSyf1Fm", "type": "conversation.item.input_audio_transcription.text", "item_id": "item_S997Yu46cT66srf8uqqxj", "content_index": 0, "text": "", "stash": "长"}
+
+[18:07:12]receive message:  {"event_id": "event_QaoimHMAGiBeQbV9Ln1El", "type": "conversation.item.input_audio_transcription.text", "item_id": "item_S997Yu46cT66srf8uqqxj", "content_index": 0, "text": "", "stash": "长河"}
+
+[18:07:12]receive message:  {"event_id": "event_MovuQE8C6JnDrPcMTeIpJ", "type": "conversation.item.input_audio_transcription.text", "item_id": "item_S997Yu46cT66srf8uqqxj", "content_index": 0, "text": "", "stash": "长河落"}
+
+[18:07:12]receive message:  {"event_id": "event_F8fZyacfbtXgwNNizAQux", "type": "conversation.item.input_audio_transcription.text", "item_id": "item_S997Yu46cT66srf8uqqxj", "content_index": 0, "text": "", "stash": "长河落。"}
+
+[18:07:13]receive message:  {"event_id": "event_A9wzZZyznzSkouWsnUP4E", "type": "input_audio_buffer.speech_stopped", "audio_end_ms": 11460, "item_id": "item_S997Yu46cT66srf8uqqxj"}
+
+[18:07:13]receive message:  {"event_id": "event_UZJUdhU1OzbWViVEM6rM6", "type": "input_audio_buffer.committed", "previous_item_id": "item_AEQBaDSactuh6lFHdhLnh", "item_id": "item_S997Yu46cT66srf8uqqxj"}
+
+[18:07:14]receive message:  {"event_id": "event_SouO2xnlII5hbUJNPry5Q", "type": "conversation.item.input_audio_transcription.text", "item_id": "item_S997Yu46cT66srf8uqqxj", "content_index": 0, "text": "", "stash": "长河落日圆"}
+
+[18:07:14]receive message:  {"event_id": "event_V379dqiLrs1kSQExTKXjH", "type": "conversation.item.input_audio_transcription.text", "item_id": "item_S997Yu46cT66srf8uqqxj", "content_index": 0, "text": "", "stash": "长河落日圆。"}
+
+[18:07:14]receive message:  {"event_id": "event_ZmjEdcRtMGaOadgSl6sD8", "type": "conversation.item.input_audio_transcription.completed", "item_id": "item_S997Yu46cT66srf8uqqxj", "content_index": 0, "transcript": "长河落日圆。", "usage": {"duration": 11}}
+
+[18:07:14]receive message:  {"type": "final_transcript", "text": "长河落日圆。"}
+
